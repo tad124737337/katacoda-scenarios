@@ -1,3 +1,2 @@
-Say Hello World `echo 'hello world'`{{execute}}
+Run `Kubectl explore roles`{{execute}}
 
-Run **kubectl explore roles**
