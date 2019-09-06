@@ -1,2 +1,2 @@
-Run `kubectl explore roles`{{execute}}
+Run `kubectl explain roles`{{execute}}
 
