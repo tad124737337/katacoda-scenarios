@@ -1,3 +1,8 @@
-Start minikube using `minikube start`{{execute}}
-Run `kubectl explain roles`{{execute}}
+First, we need to start  minikube using `minikube start`{{execute}}
 
+
+The output should look like this:
+`Starting local Kubernetes cluster...
+Running pre-create checks...
+Creating machine...
+Starting local Kubernetes cluster...`
