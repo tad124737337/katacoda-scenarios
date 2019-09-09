@@ -6,12 +6,16 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Start Minikube",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Deploy Hello World",
         "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Accessing Hello World",
+        "text": "step3.md"
       }
     ],
     "intro": {
