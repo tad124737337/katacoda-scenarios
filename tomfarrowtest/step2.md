@@ -1,3 +1,8 @@
-Use the below command to start a simple HTTP server called echoserver
+Use the below command to start a simple demo application
 
-`kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080`{{execute}}
+`kubectl create deployment hello-node --image=gcr.io/hello-minikube-zero-install/hello-node`{{execute}}
+
+Then expose it using
+
+`kubectl expose deployment hello-node --type=LoadBalancer --port=8080`{{execute}}
+
